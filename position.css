@@ -1,0 +1,36 @@
+.relative{
+    background-color: aqua;
+    height: 700px;
+    position: relative;
+    
+}
+.topright{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.bottomleft{
+    position: absolute;
+    left: 0px;
+    bottom:0px;
+
+}
+.bottomright{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+.topleft{
+    top: 0px;
+    left: 0px;
+}
+.centre{
+    position: absolute;
+    right: 500px;
+    top: 270px;
+}
+h1{
+    position: fixed;
+    background-color: azure;
+    left: 200px
+}

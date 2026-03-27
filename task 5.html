@@ -21,10 +21,12 @@
             list-style: none;
             gap: 20px;
         }
-        .navbar .right{
+
+        .navbar .right {
             margin-right: 100px;
         }
-        .navbar .left{
+
+        .navbar .left {
             margin-left: 100px;
             align-content: center;
         }
@@ -44,9 +46,11 @@
             background-size: cover;
             height: 400px;
             color: white;
+            background-color: blueviolet;
         }
-        .upperbody button{
-        border: none;
+
+        .upperbody button {
+            border: none;
             background-color: orangered;
             border-radius: 40px;
             width: 170px;
@@ -55,43 +59,31 @@
         }
 
         .upperbody h1 {
-        font-size: 45px;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 45px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         }
 
         .lowerbody {
             text-align: center;
+             align-content: center;
         }
 
         .pictures {
             display: flex;
-            width: 700px;
+            justify-content: center;
+            gap: 90px;
+
 
         }
 
         .pictures img {
-            height: 200px;
+            width: 250px;
         }
 
-        .lowerbody {
-            justify-items: center;
-            justify-content: space-between;
-            gap: 200px;
-        }
-
-        .box1 {
+        .box {
             width: 200px;
         }
-
-        .box2 {
-            width: 200px;
-        }
-
-        .box3 {
-            width: 200px;
-        }
-        .image{
-            border-radius: 50%
+        .face{
         }
 
     </style>
@@ -137,20 +129,22 @@
             <p>JOIN OUR LEARN COURSES</p>
             <h2>Featured Online Courses </h2>
             <div class="pictures">
-                <div class="box1">
-                    <img src="pngtree-a-cheerful-young-student-with-long-png-image_20325474.png" alt="">
+                <div class="box">
+                    <img src="Myimage.jpg" alt="">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                 </div>
-                <div class="box2">
-                    <img src="pngtree-a-cheerful-young-student-with-long-png-image_20325474.png" alt="">
+                <div class="box">
+                    <img src="Myimage.jpg" alt="">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    <img src="Myimage.jpg" alt="" class="image">
+
 
                 </div>
-                <div class="box3">
-                    <img src="pngtree-a-cheerful-young-student-with-long-png-image_20325474.png" alt="">
+                <div class="box">
+                    <img src="Myimage.jpg" alt="">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    <i class="fa-solid fa-circle" style="color: rgb(211, 44, 81);"></i>
+                    <div class="face">
+                        <p>by olivia in programming</p>
+                    </div>
                 </div>
 
             </div>

@@ -1,0 +1,72 @@
+.navbar {
+            display: flex;
+            justify-content: space-between;
+            background-color: blueviolet;
+            color: white;
+        }
+
+        .list {
+            display: flex;
+            list-style: none;
+            gap: 20px;
+        }
+        .navbar .right{
+            margin-right: 100px;
+        }
+        .navbar .left{
+            margin-left: 100px;
+            align-content: center;
+        }
+
+        .dropdown {
+            background-color: blueviolet;
+            color: white;
+            border: none;
+        }
+
+        .upperbody {
+            text-align: center;
+            align-content: center;
+            justify-items: center;
+            background-image: url(Myimage.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 400px;
+            color: white;
+            background-color: blueviolet;
+        }
+        .upperbody button{
+        border: none;
+            background-color: orangered;
+            border-radius: 40px;
+            width: 170px;
+            height: 50px;
+
+        }
+
+        .upperbody h1 {
+        font-size: 45px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        .lowerbody {
+            text-align: center;
+        }
+
+        .pictures {
+            display: flex;
+            width: 700px;
+
+        }
+
+
+        .lowerbody {
+            justify-items: center;
+            justify-content: space-between;
+            gap: 200px;
+        }
+
+       
+      
+        
+        
